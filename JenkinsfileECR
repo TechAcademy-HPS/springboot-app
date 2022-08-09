@@ -14,7 +14,7 @@ pipeline {
 	
         stage('checkout') {
             steps {
-                git credentialsId: 'SSHKey', url: 'https://github.com/TechAcademy-HPS/maven-web-application.git'
+                git credentialsId: 'SSHKey', url: 'https://github.com/TechAcademy-HPS/springboot-app.git'
 
             }
         }
